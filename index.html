@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body onload="titleScreen()">
+    <div class="grid-container">
+        <div class="header">
+            <h1 id="score">Score: 0</h1>
+        </div>
+        <div class="mainLeft">
+            <h1>Projectiles:</h1>
+            <img id="fireball" src="src/img/fireball.png" height="35" width="120">
+            <br/>
+            <br/>
+            <img id="iceball" src="src/img/iceball.png" height="35" width="120">
+        </div>
+        <div class="main">
+            <canvas id="canvas" width="800" height="600"></canvas>
+        </div>
+        <div class="MainRight">
+            <h1>right</h1>
+        </div>
+        <div class="footer">
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
